@@ -13,7 +13,8 @@ char inputChar() {
 
 // Функция для вывода предыдущего символа в ASCII
 void printPreviousChar(char ch) {
-
+    char prevChar = ch - 1;
+    cout << "Предыдущий символ: '" << prevChar << "' (ASCII код: " << static_cast<int>(prevChar) << ")\n";
 }
 
 // Функция для вывода следующего символа в ASCII
