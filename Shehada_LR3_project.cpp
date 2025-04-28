@@ -19,7 +19,8 @@ void printPreviousChar(char ch) {
 
 // Функция для вывода следующего символа в ASCII
 void printNextChar(char ch) {
-
+    char nextChar = ch + 1;
+    cout << "Следующий символ: '" << nextChar << "' (ASCII код: " << static_cast<int>(nextChar) << ")\n";
 }
 
 // Функция для отображения меню
